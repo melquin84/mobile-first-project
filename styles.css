@@ -279,7 +279,6 @@ main {
     line-height: 1.8rem;
     color: #808080
 }
-
 .product-detail--card {
     width: 90%;
     min-width: 288px;
@@ -291,18 +290,24 @@ main {
     border-radius: 5px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16);
 }
-
-.product-detail--card .clock {
+.product-detail--card .card--icon {
     display: inline-block;
     width: 24px;
     height: 24px;
     margin-bottom: 10px;
-    background-image: url('./assets/icons/clock.svg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
 }
-
+.product-detail--card .clock-icon {
+    background-image: url('./assets/icons/clock.svg');
+}
+.product-detail--card .eye-icon {
+    background-image: url('./assets/icons/eye.svg');
+}
+.product-detail--card .dollar-icon {
+    background-image: url('./assets/icons/dollar-sign.svg');
+}
+.product-detail--card .check-icon {
+    background-image: url('./assets/icons/check-circle.svg');
+}
 .product--card-title {
     margin-bottom: 15px;
     font-size: 1.8rem;
@@ -310,7 +315,6 @@ main {
     line-height: 1.8rem;
     color: var(--just-white);
 }
-
 .product--card-body {
     font-size: 1.4rem;
     font-weight: 500;
